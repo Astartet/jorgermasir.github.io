@@ -1,0 +1,18 @@
+
+
+.container{
+  height: 100%;
+  width: 100%;
+}
+.row{
+  height: 100%;
+}
+.col{
+  background-color: #00216a;
+  
+
+ }
+ .medio{
+   padding-top: 5%;
+   
+ }

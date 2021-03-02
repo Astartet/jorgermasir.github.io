@@ -1,0 +1,76 @@
+
+
+body {
+  background: #f1f1f1;
+}
+
+
+#carouselExampleControls{
+  position: absolute;
+  z-index: 0;
+  padding-left: 20%;
+  
+}
+
+.bi{
+  position:fixed;
+  right:8.5%;
+  bottom:0;
+  color: #00216a;
+}
+.bi:hover{
+  background-color: #00216a;
+  border-radius: 32px 32px 32px 32px;
+  color: white;
+  transition: 150ms;
+} 
+#principio{
+  width: 100%;
+  height: 10%;
+  padding-top: 5%;
+}
+img.equipo{
+  height: 400px;
+  width: 600px;
+}
+.caracteristicas{
+  padding-top: 25px;
+  display: flex;
+  text-decoration: none;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 1.5em;
+}
+.con{
+  margin: 10vh;
+  padding-left: 42%;
+  font-weight: bold;
+  color: #00216a;
+  font-size: 200%;
+}
+.con:hover{
+  text-decoration: underline;
+}
+li.lista{
+  margin: 10vh;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 15%;
+  text-align: center;
+} /*Revisar texto no se ajusta*/
+li.lista:hover{
+  font-weight: 500;
+  
+  
+  text-decoration: underline;
+  background-color: #00216a;
+  color: white;
+  -webkit-border-top-right-radius: 100px;
+-webkit-border-bottom-left-radius: 100px;
+-moz-border-radius-topright: 100px;
+-moz-border-radius-bottomleft: 100px;
+border-top-right-radius: 100px;
+border-bottom-left-radius: 100px;
+  
+  transition: 2.8s;
+}

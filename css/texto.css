@@ -1,0 +1,31 @@
+
+h1{
+    text-align: center;
+    color:#002a61;
+    font-style: oblique;
+}
+h1:hover{
+    text-decoration: underline;
+    
+    transition: 1000ms;
+}
+p{
+    text-align: justify;
+    color: #002a61;
+    padding-top: 5%;
+}
+.saber{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+.uno,.dos,.tres{
+    text-align: center;
+    color: #002a61;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.texto{
+    font-weight: 100;
+    padding-top: 100px;
+}
